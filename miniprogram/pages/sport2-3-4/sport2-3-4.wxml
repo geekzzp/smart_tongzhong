@@ -1,0 +1,49 @@
+<view class='content'>
+  <view class='select_box'>
+    <view class='select' catchtap='selectTaps'>
+      <text class='select_text'>{{selectDatas[indexs]}}</text>
+    </view>
+    <view class='option_box' style='height:{{shows?(selectDatas.length>5?300:selectDatas.length*60):0}}rpx;'>
+      <text class='option' style='{{indexs==selectDatas.length-1&&"border:0;"}}' wx:for='{{selectDatas}}' wx:key='this'
+        data-index='{{index}}' catchtap='optionTaps'>{{item}}</text>
+    </view>
+  </view>
+  <!-- 复选框 -->
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account11" placeholder="第一名班级两位序号"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account13" placeholder="第一名班级成绩"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account21" placeholder="第二名班级两位序号"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account23" placeholder="第二名班级成绩"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account31" placeholder="第三名班级两位序号"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account33" placeholder="第三名班级成绩"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account41" placeholder="第四名班级两位序号"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account43" placeholder="第四名班级成绩"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account51" placeholder="第五名班级两位序号"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account53" placeholder="第五名班级成绩"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account61" placeholder="第六名班级两位序号"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account63" placeholder="第六名班级成绩"></input>
+  </view>
+  <view id="btn" class="cli" bindtap="regist">确定</view>
+</view>

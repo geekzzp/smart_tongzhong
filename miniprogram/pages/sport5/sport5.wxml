@@ -1,0 +1,78 @@
+<view hidden="{{currentTab == 0? false: true}}">
+  <view class="content">
+    <view wx:if="{{details.length ==0||origin==0}}">暂无新资讯</view>
+    <view wx:else class="table">
+      <block wx:for="{{details}}" wx:key="uniquedetails">
+      <view class="iden1">
+        <view class="iden">破纪录！</view>
+      </view>
+        <text space="true">    恭喜 {{details[index].stuid}}{{details[index].name}} 同学在 {{details[index].title}} 比赛中以 {{details[index].record}} 的好成绩打{{details[index].dec}}</text>
+        <view class="fenggexian"></view>
+      </block>
+    </view>
+  </view>
+</view>
+<view hidden="{{currentTab == 1? false: true}}">
+  <view class="check1">
+    <button bindtap="fir_click">高一</button>
+  </view>
+  <view class="check1">
+    <button bindtap="sec_click">高二</button>
+  </view>
+  <view class="check1">
+    <button bindtap="thi_click">高三</button>
+  </view>
+  <view style="height:40rpx"></view>
+  <view class="check1">
+    <button class='check3' bindtap="for_click">积分排名</button>
+  </view>
+</view>
+<view hidden="{{currentTab == 2? false: true}}">
+  <view class="content">
+    <view class="identity">10月17日上午</view>
+    <view class="table">
+      <view class="tr">
+        <view class="th">项目</view>
+        <view class="th">时间</view>
+      </view>
+      <block wx:for="{{timefir}}" wx:key="uniquetime1">
+        <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+          <view class="td">{{timefir[index].title}}</view>
+          <view class="td">{{timefir[index].time}}</view>
+        </view>
+        <view class="tr bg-w" wx:else>
+          <view class="td">{{timefir[index].title}}</view>
+          <view class="td">{{timefir[index].time}}</view>
+        </view>
+      </block>
+    </view>
+    <view class="identity">10月17日下午</view>
+    <view class="table">
+      <view class="tr">
+        <view class="th">项目</view>
+        <view class="th">时间</view>
+      </view>
+      <block wx:for="{{timesec}}" wx:key="uniquetime2">
+        <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+          <view class="td">{{timesec[index].title}}</view>
+          <view class="td">{{timesec[index].time}}</view>
+        </view>
+        <view class="tr bg-w" wx:else>
+          <view class="td">{{timesec[index].title}}</view>
+          <view class="td">{{timesec[index].time}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+
+<!-- 自定义 tabbar -->
+<view class="nav-tabs">
+  <view class="tab-list {{currentTab == idx ? 'active' : 'default' }}" wx:for="{{items}}" wx:key="prototype"
+    wx:for-index="idx" wx:for-item="item" data-current="{{idx}}" bindtap="swichNav">
+    <text class="tab-text" wx:for-index="idx" data-current="{{idx}}"
+      src="{{currentTab == idx ? item.selectedIconPath : item.iconPath }}">{{item.text}}</text>
+    <image class="iconPath" wx:for-index="idx" data-current="{{idx}}"
+      src="{{currentTab == idx ? item.selectedIconPath : item.iconPath }}"></image>
+  </view>
+</view>

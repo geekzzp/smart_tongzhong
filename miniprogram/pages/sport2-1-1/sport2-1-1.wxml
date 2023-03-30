@@ -1,0 +1,13 @@
+<!--pages/enroll/enroll.wxml-->
+<view class=".text_1">重新设置密码</view>
+<view class="background">
+  <view class="first">
+    <input placeholder="新密码" placeholder-class="plas" class="inputs" type="string" bindinput="usernameInput"></input>
+  </view>
+  <view class="second">
+    <input  placeholder="确认密码" placeholder-class="plas" class="inputs" type="string" bindinput="passwordInput"></input>
+  </view>
+<view>
+<view id="btn" class="cli" bindtap="regist">确定</view>
+</view>
+</view>

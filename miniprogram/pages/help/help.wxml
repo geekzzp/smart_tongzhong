@@ -1,0 +1,15 @@
+<!--pages/help/help.wxml-->
+<view class="personalWrap">
+<text class="text1">帮助&关于我们</text>
+<text class="text2" selectable="true" space="true">注意事项：
+  制作方：南通中学云平台&极客社科技联盟
+  我们欢迎有基础或有意愿的同学加入我们的开发团队，一起开发完善通中智慧校园小程序。
+  如有问题或建议,欢迎随时联系我们。
+  联系方式：
+  南通中学云极科联 官q：32479632
+  19届朱振鹏 qq：1958230983
+
+  Copyright 2019-2020 南通中学云极科联
+  版权所有，侵权必究
+</text>
+</view>

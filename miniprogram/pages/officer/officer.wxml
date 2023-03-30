@@ -1,0 +1,15 @@
+<view class=".text_1">选择你想申报职务的社团</view>
+<view wx:for="{{products}}" class="van-card" wx:key="uniqueoff">
+		<view class="van-card__thumb" data-action="{{item}}" bindtap="bindViewTap" >
+			<image src="{{item.logo}}" class="van-card__img" style="width:136rpx;height:136rpx;border:1px solid #ddd;float:left;margin:20rpx 20rpx;border-radius: 50%;"></image>
+		  <view class="van-card__content">
+		  	<view class="van-card__title">{{item.name}}</view>
+		  	<view class="van-card__desc">{{item.details}}</view>
+      </view>
+	</view>
+</view>
+<view>
+<view id="btn" class="cli" bindtap="backindex">暂不申报，返回首页</view>
+<view class="tip">（非现在必填，填写请谨慎，一旦申报，不可修改）</view>
+<view class="tip">职务申报可在主页“社团职务申报”中进行填写，建议按照各社具体要求填写</view>
+</view>

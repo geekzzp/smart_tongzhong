@@ -1,0 +1,26 @@
+<!--pages/sport2-3-5/sport2-3-5.wxml-->
+<view class="content">
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account1" placeholder="项目名称（年级+性别+项目）"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account11" placeholder="选手编号"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account12" placeholder="选手姓名"></input>
+  </view>
+  <view class="first">
+    <input placeholder-class="plas" class="inputs" bindinput="account13" placeholder="选手成绩"></input>
+  </view>
+  <view class='select_box'>
+    <view class='select' catchtap='selectTaps'>
+      <text class='select_text'>{{selectDatas[indexs]}}</text>
+    </view>
+    <view class='option_box' style='height:{{shows?(selectDatas.length>5?300:selectDatas.length*60):0}}rpx;'>
+      <text class='option' style='{{indexs==selectDatas.length-1&&"border:0;"}}' wx:for='{{selectDatas}}' wx:key='this'
+        data-index='{{index}}' catchtap='optionTaps'>{{item}}</text>
+    </view>
+  </view>
+  <view style="height:200rpx"></view>
+  <view id="btn" class="cli" bindtap="regist">确定</view>
+</view>

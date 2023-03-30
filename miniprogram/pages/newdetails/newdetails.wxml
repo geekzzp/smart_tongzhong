@@ -1,0 +1,10 @@
+<view class=".text_1">社团简介</view>
+<view wx:for="{{products}}" class="van-card" wx:key="uniquenew">
+		<view class="van-card__thumb" bindtap="">
+			<image src="{{item.logo}}" class="van-card__img" style="width:136rpx;height:136rpx;border:1px solid #ddd;float:left;margin:20rpx 20rpx;border-radius: 50%;"></image>
+		  <view class="van-card__content">
+		  	<view class="van-card__title">{{item.name}}</view>
+		  	<view class="van-card__desc">{{item.details}}</view>
+      </view>
+	</view>
+</view>

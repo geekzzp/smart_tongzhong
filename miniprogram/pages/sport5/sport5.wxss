@@ -1,0 +1,121 @@
+/**index.wxss**/
+page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.nav-tabs {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+.tab-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  background: #fcfcfc;
+  height: 120rpx;
+
+}
+.tab-text {
+  font-size: 24rpx;
+  line-height: 35rpx;
+  color: #5f5f5f;
+}
+.iconPath {
+  width: 54rpx;
+  height: 54rpx;
+}
+.tab-content {
+  flex: 1;
+}
+.default {
+  line-height: 75rpx;
+  text-align: center;
+  flex: 1;
+  /* border-bottom: 1px solid #eee; */
+  color: #eee;
+  font-weight: bold;
+  font-size: 28rpx;
+}
+.active {
+  line-height: 75rpx;
+  text-align: center;
+  color: black;
+  flex: 1;
+  /* border-bottom: 1px solid red; */
+  font-weight: bold;
+  font-size: 28rpx;
+}
+.show {
+  display: block;
+  flex: 1;
+}
+.hidden {
+  display: none;
+  flex: 1;
+}
+
+.content{
+  margin:20rpx 20rpx 160rpx 20rpx;
+}
+.table {
+  border: 0px solid darkgray;
+ }
+ .tr {
+  display: flex;
+  width: 100%;
+  /* justify-content: center; */
+  height: 3rem;
+  align-items: center;
+ }
+ .td {
+  width:50%;
+  justify-content: center;
+  text-align: center;
+ }
+ .bg-w{
+  background: snow;
+ }
+ .bg-g{
+  background: #E6F3F9;
+ }
+ .th {
+  width: 50%;
+  justify-content: center;
+  background: #3366FF;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+ }
+ .identity{
+  display: flex;
+  justify-content: center;
+  font-size: 45rpx;
+  height: 80rpx;
+}
+.iden{
+  display: flex;
+  justify-content: center;
+  font-size: 40rpx;
+}
+.iden1{
+
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+.check1{
+  margin-top: 80rpx;
+  height:100rpx
+}
+.check3{
+  background-color: red;
+  color: white;
+}
+.fenggexian{
+  height: 30rpx;
+  border-bottom:1px solid #ccc;
+}

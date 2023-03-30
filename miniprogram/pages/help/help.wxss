@@ -1,0 +1,10 @@
+/* pages/help/help.wxss */
+.personalWrap{
+  padding:20rpx 20rpx 20rpx 20rpx;
+}
+.text1{
+  display: flex;
+  justify-content: center;
+  font-size: 45rpx;
+  line-height:80rpx;
+}

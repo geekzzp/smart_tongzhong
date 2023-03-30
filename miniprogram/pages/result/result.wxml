@@ -1,0 +1,67 @@
+<view class="personalWrap">
+	<view class="text_1">申报情况</view>
+	<view class="table">
+		<view class="tr bg-w">
+			<view class="th">所选社团</view>
+			<view class="th">申报情况</view>
+		</view>
+		<block wx:for="{{array}}" wx:key="uniqueres">
+			<view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+				<view class="td">{{array[index]}}</view>
+				<view class="td">申报已提交</view>
+			</view>
+			<view class="tr bg-w" wx:else>
+				<view class="td">{{array[index]}}</view>
+				<view class="td">申报已提交</view>
+			</view>
+		</block>
+	</view>
+	<view style="height:40rpx"></view>
+	<view class="table">
+		<view class="tr bg-w">
+			<view class="th">所选社团</view>
+			<view class="th">申报职务</view>
+			<view class="th">申报情况</view>
+		</view>
+		<block wx:for="{{office}}" wx:key="uniqueres">
+			<view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+				<view class="td">{{office[index][0]}}</view>
+				<view class="td">{{office[index][1]}}</view>
+				<view class="td">申报已提交</view>
+			</view>
+			<view class="tr bg-w" wx:else>
+				<view class="td">{{office[index][0]}}</view>
+				<view class="td">{{office[index][1]}}</view>
+				<view class="td">申报已提交</view>
+			</view>
+		</block>
+	</view>
+	<view class="text_1">已通过审批：</view>
+	<view class="table">
+		<view class="tr">
+			<view class="thh">已通过社团</view>
+		</view>
+		<block wx:for="{{socdone}}" wx:key="uniqueres">
+			<view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+				<view class="td">{{socdone[index]}}</view>
+			</view>
+			<view class="tr bg-w" wx:else>
+				<view class="td">{{socdone[index]}}</view>
+			</view>
+		</block>
+	</view>
+	<view style="height:40rpx"></view>
+	<view class="table">
+		<view class="tr">
+			<view class="thh">已通过职务</view>
+		</view>
+		<block wx:for="{{officedone}}" wx:key="uniqueres">
+			<view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+				<view class="td">{{officedone[index]}}</view>
+			</view>
+			<view class="tr bg-w" wx:else>
+				<view class="td">{{officedone[index]}}</view>
+			</view>
+		</block>
+	</view>
+</view>

@@ -1,0 +1,22 @@
+<!--pages/text/text.wxml-->
+<view class="content">
+  <image class='background' src="../../icons/background.jpg" mode="aspectFill"></image>
+  <view class="zzp">
+    <text class="text_1">欢迎进入智慧通中小程序</text>
+    <text class="121">{{this.data.text0}}</text>
+    <view style="height:20rpx;"></view>
+    <text class="text_2">请选择你想进入的功能</text>
+    <view style="height:40rpx;"></view>
+    <view class="video_wrap">
+      <view bindtap="choose1" class="video_img">
+        <image mode="widthFix" src="../../icons/sport.jpg"></image>
+      </view>
+      <view bindtap="choose2" class="video_img">
+        <image mode="widthFix" src="../../icons/society.jpg"></image>
+      </view>
+      <view class="video_imgg">
+      <image mode="widthFix" src="../../icons/xiaohui.jpg"></image>
+    </view>
+    </view>
+  </view>
+</view>

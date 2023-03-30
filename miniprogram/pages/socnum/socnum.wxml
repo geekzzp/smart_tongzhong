@@ -1,0 +1,10 @@
+<!--pages/socnum/socnum.wxml-->
+<view class="background">
+  <view class="first">
+    <input placeholder="社团id" placeholder-class="plas" class="inputs" type="text" bindinput="newInput"></input>
+  </view>
+  <view class="second">
+    <input placeholder="专属码" placeholder-class="plas" class="inputs" type="text" bindinput="usernameInput"></input>
+  </view>
+  <view id="btn" class="cli" bindtap="regist">确定登录</view>
+</view>

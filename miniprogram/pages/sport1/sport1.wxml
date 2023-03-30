@@ -1,0 +1,31 @@
+<!--pages/text/text.wxml-->
+<view class="content">
+  <image class='background' src="../../icons/background.jpg" mode="aspectFill"></image>
+  <view class="zzp">
+    <text class="text_1">欢迎进入南通中学校运会小程序
+    </text>
+    <view style="height:20rpx;"></view>
+    <text class="text_2">选择游客登录，我们将为您提供精选的赛事资讯与校园风采</text>
+    <view style="height:40rpx;"></view>
+    <view class="video_wrap">
+      <view bindtap="choose1" class="video_img">
+        <image mode="widthFix" src="../../icons/weiyuan.jpg"></image>
+      </view>
+      <view bindtap="choose2" class="video_img">
+        <image mode="widthFix" src="../../icons/journalist.jpg"></image>
+      </view>
+    </view>
+    <view style="height:10rpx;"></view>
+    <view class="video_wrap">
+      <view bindtap="choose3" class="video_img">
+        <image mode="widthFix" src="../../icons/tiyu.jpg"></image>
+      </view>
+      <view bindtap="trip" class="video_img">
+        <image mode="widthFix" src="../../icons/youke.jpg"></image>
+      </view>
+    </view>
+    <view>制作方：南通中学极客社&云平台科技联盟</view>
+    <view>联系我们:</view>
+    <view>官Q：32479632</view>
+  </view>
+</view>

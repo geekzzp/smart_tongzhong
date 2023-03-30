@@ -1,0 +1,84 @@
+{
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/filled/filled",
+          "pathName": "pages/filled/filled",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/excelout/excelout",
+          "pathName": "pages/excelout/excelout",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sport1/sport1",
+          "pathName": "pages/sport1/sport1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sport3/sport3",
+          "pathName": "pages/sport3/sport3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sport2-1/sport2-1",
+          "pathName": "pages/sport2-1/sport2-1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/editor/editor",
+          "pathName": "pages/editor/editor",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sport2-3-2/sport2-3-2",
+          "pathName": "pages/sport2-3-2/sport2-3-2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sport4-4/sport4-4",
+          "pathName": "pages/sport4-4/sport4-4",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sport5/sport5",
+          "pathName": "pages/sport5/sport5",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/details/details",
+          "pathName": "pages/details/details",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "%E6%99%BA%E6%85%A7%E9%80%9A%E4%B8%AD%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+  "setting": {
+    "compileHotReLoad": true
+  }
+}

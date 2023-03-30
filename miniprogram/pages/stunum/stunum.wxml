@@ -1,0 +1,19 @@
+<!--pages/enroll/enroll.wxml-->
+<view class=".text_1">身份认证</view>
+<view class="background">
+  <view class="first">
+    <input placeholder="姓名" placeholder-class="plas" class="inputs" type="text" bindinput="usernameInput"></input>
+  </view>
+  <view class="second">
+    <input  placeholder="9位学号" placeholder-class="plas" class="inputs" type="number" maxlength="9" bindinput="passwordInput"></input>
+  </view>
+  <view class="second">
+    <input  placeholder="智学号" placeholder-class="plas" class="inputs" type="number" maxlength="8" bindinput="secpasswordInput"></input>
+  </view>
+  <view class="second">
+    <input placeholder="qq" placeholder-class="plas" class="inputs" type="number" maxlength="11" bindinput="qqnumInput"></input>
+  </view>
+<view>
+<view id="btn" class="cli" bindtap="regist">确定且登录</view>
+</view>
+</view>

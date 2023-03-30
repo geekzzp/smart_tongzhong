@@ -1,0 +1,55 @@
+<view class="content">
+    <view class="identity">高一</view>
+    <view class="table">
+      <view class="tr">
+        <view class="th">班级</view>
+        <view class="th">积分</view>
+      </view>
+      <block wx:for="{{rank1}}" wx:key="uniquerank1">
+        <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+          <view class="td">{{rank1[index].name}}</view>
+          <view class="td">{{rank1[index].total}}</view>
+        </view>
+        <view class="tr bg-w" wx:else>
+          <view class="td">{{rank1[index].name}}</view>
+          <view class="td">{{rank1[index].total}}</view>
+        </view>
+      </block>
+    </view>
+    <view style="height:40rpx"></view>
+    <view class="identity">高二</view>
+    <view class="table">
+      <view class="tr">
+        <view class="th">班级</view>
+        <view class="th">积分</view>
+      </view>
+      <block wx:for="{{rank2}}" wx:key="uniquerank1">
+        <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+          <view class="td">{{rank2[index].name}}</view>
+          <view class="td">{{rank2[index].total}}</view>
+        </view>
+        <view class="tr bg-w" wx:else>
+          <view class="td">{{rank2[index].name}}</view>
+          <view class="td">{{rank2[index].total}}</view>
+        </view>
+      </block>
+    </view>
+    <view style="height:40rpx"></view>
+    <view class="identity">高三</view>
+    <view class="table">
+      <view class="tr">
+        <view class="th">班级</view>
+        <view class="th">积分</view>
+      </view>
+      <block wx:for="{{rank1}}" wx:key="uniquerank1">
+        <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+          <view class="td">{{rank3[index].name}}</view>
+          <view class="td">{{rank3[index].total}}</view>
+        </view>
+        <view class="tr bg-w" wx:else>
+          <view class="td">{{rank3[index].name}}</view>
+          <view class="td">{{rank3[index].total}}</view>
+        </view>
+      </block>
+    </view>
+  </view>

@@ -1,0 +1,50 @@
+.zzp {
+  padding: 40rpx;
+}
+
+.text_1 {
+  display: flex;
+  justify-content: center;
+  font-size: 45rpx;
+}
+.text_2 {
+  display: flex;
+  justify-content: center;
+  font-size: 36rpx;
+}
+
+.video_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video_img {
+  width: 47%;
+  margin-bottom: 20rpx;
+  position: relative;
+  z-index: 1;
+}
+.video_imgg{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 20rpx;
+  margin-top : 120rpx;
+  position: relative;
+  z-index: 1;
+}
+.video_imgg image {
+  width: 100%;
+}
+.video_img image {
+  width: 100%;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -1;
+}

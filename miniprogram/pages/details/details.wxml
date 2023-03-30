@@ -1,0 +1,61 @@
+<view class="inp">
+<input placeholder="关键字检索" placeholder-class="plas" class="inputs" type="text" bindinput="usernameInput"></input>
+</view>
+<button class="sear" bindtap="search">搜索</button>
+
+<checkbox-group bindchange="checkboxChange">
+<view wx:for="{{products}}" class="van-card" wx:key="uniquedet3">
+	<view wx:if="{{che[index] == true }}" >
+		<view class="van-card__thumb" bindtap="">
+			<image src="{{item.logo}}" class="van-card__img" style="width:136rpx;height:136rpx;border:1px solid #ddd;float:left;margin:20rpx 20rpx;border-radius: 50%;"></image>
+		  <view class="van-card__content">
+		  	<view class="van-card__title">{{item.name}}</view>
+		  	<view class="van-card__desc">{{item.details}}</view>
+				
+	  	</view>
+			<checkbox style="float:right;margin-top:50rpx" value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+		</view>
+	</view>
+</view>
+</checkbox-group>
+
+<view class="text_1">预选社团</view>
+<checkbox-group bindchange="checkboxChange">
+<view wx:for="{{products}}" class="van-card" wx:key="uniquedet2">
+	<view wx:if="{{item.checked == true }}" >
+		<view class="van-card__thumb" bindtap="">
+			<image src="{{item.logo}}" class="van-card__img" style="width:136rpx;height:136rpx;border:1px solid #ddd;float:left;margin:20rpx 20rpx;border-radius: 50%;"></image>
+		  <view class="van-card__content">
+		  	<view class="van-card__title">{{item.name}}</view>
+		  	<view class="van-card__desc">{{item.details}}</view>
+				
+	  	</view>
+			<checkbox style="float:right;margin-top:50rpx" value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+		</view>
+	</view>
+</view>
+</checkbox-group>
+
+<view class=".text_1">社团列表</view>
+<checkbox-group bindchange="checkboxChange">
+<view wx:for="{{products}}" class="van-card" wx:key="uniquedet">
+	<view class="">
+		<view class="van-card__thumb" bindtap="">
+			<image src="{{item.logo}}" class="van-card__img" style="width:136rpx;height:136rpx;border:1px solid #ddd;float:left;margin:20rpx 20rpx;border-radius: 50%;"></image>
+		  <view class="van-card__content">
+		  	<view class="van-card__title">{{item.name}}</view>
+		  	<view class="van-card__desc">{{item.details}}</view>
+				
+	  	</view>
+			<checkbox style="float:right;margin-top:50rpx" value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+		</view>
+	</view>
+</view>
+</checkbox-group>
+
+<view style="height:250rpx"></view>
+
+
+<view>
+<view id="btn" class="clic" bindtap="regist">确定申报</view>
+</view>

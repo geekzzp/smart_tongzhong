@@ -1,0 +1,89 @@
+/* pages/society/society.wxss */
+.page {
+  /*background-color:#fff;*/
+  font-size: 30rpx;
+}
+
+.personalWrap {
+  margin: 30rpx 30rpx 0rpx 30rpx;
+}
+
+.personalMe {
+  height: 180rpx;
+  margin: 30rpx 0rpx 30rpx 0rpx;
+  background-color: #fff;
+}
+
+.personalInfo {
+  float: left;
+  margin: 20rpx 0rpx 0rpx 20rpx;
+  display: block;
+  line-height: 70rpx;
+  height: 70rpx;
+}
+
+.personalInfo wx-text {
+  display: block;
+  line-height: 70rpx;
+  height: 70rpx;
+}
+
+.text {
+  font-size: 20px;
+  padding: 0rpx 20rpx;
+}
+
+/* 表格 */
+.table {
+  border: 0px solid darkgray;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}
+
+.td {
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+}
+
+.bg-w {
+  background: snow;
+}
+
+.bg-g {
+  background: #E6F3F9;
+}
+
+.th {
+  width: 40%;
+  justify-content: center;
+  background: #3366FF;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+
+.cli {
+  width: 90%;
+  height: 90rpx;
+  line-height: 60rpx;
+  margin: auto;
+  margin-top: 40rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-size: 33rpx;
+}
+
+.clipad {
+  padding-bottom: 20rpx;
+}

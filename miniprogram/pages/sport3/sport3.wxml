@@ -1,0 +1,17 @@
+<view class="content">
+  <view>
+    <text class="identity">班级：{{title}}</text>
+  </view>
+  <view class="check1">
+    <button bindtap="signup_click">我要报名</button>
+  </view>
+  <view class="check1">
+    <button bindtap="details_click">报名详情</button>
+  </view>
+  <view class="check1">
+    <button bindtap="record_click">成绩查询</button>
+  </view>
+  <view class="check1">
+    <button bindtap="tour_click">游客主页</button>
+  </view>
+</view>

@@ -1,0 +1,3 @@
+<!--pages/excelout/excelout.wxml-->
+<text>pages/excelout/excelout.wxml</text>
+<button bindtap="Savenow">save</button>

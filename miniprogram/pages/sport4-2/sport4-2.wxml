@@ -1,0 +1,410 @@
+<view class="content">
+  <view>
+    <text class="identity">请检查您班级的项目填报信息</text>
+  </view>
+  <view>
+    <view class="th bg-w">男子100米</view>
+    <view class="tr bg-g" wx:if="{{array.name0011}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0011}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0011}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0011}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0012}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0012}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0012}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0012}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">男子200米</view>
+    <view class="tr bg-g" wx:if="{{array.name0021}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0021}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0021}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0021}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0022}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0022}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0022}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0022}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">男子400米</view>
+    <view class="tr bg-g" wx:if="{{array.name0031}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0031}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0031}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0031}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0032}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0032}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0032}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0032}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">男子1500米</view>
+    <view class="tr bg-g" wx:if="{{array.name0041}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0041}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0041}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0041}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0042}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0042}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0042}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0042}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">男子5000米</view>
+    <view class="tr bg-g" wx:if="{{array.name0051}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0051}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0051}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0051}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">男子跳高</view>
+    <view class="tr bg-g" wx:if="{{array.name0061}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0061}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0061}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0061}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0062}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0062}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0062}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0062}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">男子跳远</view>
+    <view class="tr bg-g" wx:if="{{array.name0071}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0071}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0071}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0071}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0072}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0072}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0072}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0072}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">男子4*100</view>
+    <view class="tr bg-g" wx:if="{{array.name0081}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0081}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0081}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0081}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0082}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0082}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0082}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0082}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0083}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0083}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0083}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0083}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0084}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0084}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0084}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0084}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">女子100米</view>
+    <view class="tr bg-g" wx:if="{{array.name0091}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0091}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0091}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0091}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0092}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0092}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0092}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0092}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">女子200米</view>
+    <view class="tr bg-g" wx:if="{{array.name0101}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0101}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0101}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0101}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0102}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0102}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0102}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0102}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">女子400米</view>
+    <view class="tr bg-g" wx:if="{{array.name0111}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0111}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0111}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0111}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0112}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0112}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0112}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0112}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">女子800米</view>
+    <view class="tr bg-g" wx:if="{{array.name0121}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0121}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0121}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0121}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0122}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0122}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0122}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0122}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">女子5000米</view>
+    <view class="tr bg-g" wx:if="{{array.name0131}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0131}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0131}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0131}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">女子跳高</view>
+    <view class="tr bg-g" wx:if="{{array.name0141}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0141}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0141}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0141}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0142}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0142}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0142}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0142}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">女子立定跳远</view>
+    <view class="tr bg-g" wx:if="{{array.name0151}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0151}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0151}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0151}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0152}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0152}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0152}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0152}}</view>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <view class="th bg-w">女子4*100米</view>
+    <view class="tr bg-g" wx:if="{{array.name0161}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0161}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0161}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0161}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0162}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0162}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0162}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0162}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0163}}">
+      <view class="td">1</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0163}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0163}}">
+      <view class="td">1</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0163}}</view>
+    </view>
+    <view class="tr bg-g" wx:if="{{array.name0164}}">
+      <view class="td">2</view>
+      <view class="td">姓名</view>
+      <view class="td">{{array.name0164}}</view>
+    </view>
+    <view class="tr bg-w" wx:if="{{array.sport0164}}">
+      <view class="td">2</view>
+      <view class="td">编号</view>
+      <view class="td">{{array.sport0164}}</view>
+    </view>
+  </view>
+
+  <view id="btn" class="cli" bindtap="regist">修改</view>
+</view>

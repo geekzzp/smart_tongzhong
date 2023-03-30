@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class="personalWrap">
+    <!-- 列表 -->
+    <view class="personalList">
+        <!-- <view class="iconfont" bindtap="setin" open-type="getUserInfo" bindgetuserinfo="getUserInfo">实名认证</view> -->
+        <!-- <view class="iconfont" bindtap="office">操作手册</view> -->
+        <view class="iconfont" bindtap="help">关于我们</view>
+    </view>
+</view>

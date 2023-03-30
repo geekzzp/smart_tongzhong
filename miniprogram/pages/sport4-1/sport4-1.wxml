@@ -1,0 +1,267 @@
+<view class="content">
+  <view>
+  <text class="identity">项目填报</text>
+</view>
+<view>
+  <text>每位运动员限报两个项目</text>
+</view>
+<view>
+  <text>如有项目不进行申报则留空</text>
+</view>
+<view>
+  <text>趣味团体项目无需报名</text>
+</view>
+  <view>
+    <text>男子100米</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account11" type="string" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account12" type="string" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account13" type="string" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account14" type="string" placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>男子200米</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account21" type="string" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account22" type="string" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account23" type="string" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account24" type="string"  placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>男子400米</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account31" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account32" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account33" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account34" placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>男子1500米</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account41" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account42" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account43" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account44" placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>男子5000米</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account51" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account52" placeholder="1号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>男子跳高</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account61" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account62" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account63" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account64" placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>男子跳远</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account71" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account72" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account73" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account74" placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>男子4*100</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account81" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account82" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account83" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account84" placeholder="2号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account85" placeholder="3号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account86" placeholder="3号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account87" placeholder="4号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account88" placeholder="4号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>女子100米</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account91" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account92" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account93" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account94" placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>女子200米</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account101" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account102" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account103" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account104" placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>女子400米</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account111" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account112" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account113" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account114" placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>女子800米</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account121" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account122" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account123" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account124" placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>女子5000米</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account131" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account132" placeholder="1号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>女子跳高</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account141" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account142" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account143" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account144" placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>女子立定跳远</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account151" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account152" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account153" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account154" placeholder="2号选手姓名"></input>
+    </view>
+  </view>
+  <view>
+    <text>女子4*100</text>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account161" placeholder="1号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account162" placeholder="1号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account163" placeholder="2号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account164" placeholder="2号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account165" placeholder="3号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account166" placeholder="3号选手姓名"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account167" placeholder="4号选手胸卡号后5位"></input>
+    </view>
+    <view class="first">
+      <input placeholder-class="plas" class="inputs" bindinput="account168" placeholder="4号选手姓名"></input>
+    </view>
+  </view>
+<view id="btn" class="cli" bindtap="regist">确定</view>
+</view>

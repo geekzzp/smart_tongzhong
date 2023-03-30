@@ -1,0 +1,11 @@
+<view class="content">
+  <view>
+    <text class="identity">请选择项目类型</text>
+  </view>
+  <view class="check1">
+    <button bindtap="fir_click">个人项目</button>
+  </view>
+  <view class="check1">
+    <button bindtap="sec_click">团体项目</button>
+  </view>
+</view>

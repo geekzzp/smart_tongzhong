@@ -1,0 +1,21 @@
+<view class="content">
+  <view>
+    <text class="identity">请选择年级</text>
+  </view>
+  <view class="check1">
+    <button bindtap="fir_click">高一</button>
+  </view>
+  <view class="check1">
+    <button bindtap="sec_click">高二</button>
+  </view>
+  <view class="check1">
+    <button bindtap="thi_click">高三</button>
+  </view>
+  <view style="height:20rpx"></view>
+  <view class="check1">
+    <button class="check2" bindtap="for_click">发布详情</button>
+  </view>
+  <view class="check1">
+    <button class="check3" bindtap="fif_click">破纪录</button>
+  </view>
+</view>
